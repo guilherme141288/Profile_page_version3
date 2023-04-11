@@ -67,6 +67,80 @@ body {
     color: rgb(127, 119, 238);
 }
 
+.profile {
+    
+    margin-left: 36%;
+    margin-top: 20%;
+    position: fixed;
+    text-align: center;
+    width: 500px;
+    height: 450px;
+    background: transparent;
+    border: 10px solid #474747;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.8em;
+    color: #133c4d;
+    font-weight: 5;   
+    transition: .5s;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    animation: slideRight 1s ease forwards;
+}
+.profileb {
+
+    margin-left: 36%;
+    margin-top: 20%;
+    position: fixed;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    background: transparent;
+    border: 10px solid #474747;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.8em;
+    color: #133c4d;
+    font-weight: 5;   
+    transition: .5s;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    animation: slideRight 1s ease forwards;
+
+
+
+}
+
+.profilec {
+
+    margin-left: 36%;
+    margin-top: 20%;
+    position: fixed;
+    text-align: center;
+    width: 520px;
+    height: 500px;
+    background: transparent;
+    border: 10px solid #474747;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.8em;
+    color: #133c4d;
+    font-weight: 5;   
+    transition: .5s;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    animation: slideRight 1s ease forwards;
+
+
+
+}
+
 .home {
 
     position: relative;
@@ -84,6 +158,33 @@ body {
 .home-content {
 
     max-width: 600px;
+}
+
+.bout {
+
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 10% 0;
+
+
+
+}   
+
+.bout-content {
+
+    max-width: 600px;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 200px 0;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 1s;
+    
+    
 }
 
 .home-content h3 {
