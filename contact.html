@@ -7,7 +7,24 @@
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="icon" href="resources/favicon.ico">
-    <style>
+
+	<script>
+        function redirectToWhatsApp(phoneNumber) {
+            // Remove any non-numeric characters from the phone number
+            const cleanPhoneNumber = phoneNumber.replace(/\D/g, '');
+            
+            // Create the WhatsApp URL
+            const whatsappURL = `https://wa.me/${cleanPhoneNumber}`;
+            
+            // Open the WhatsApp URL in a new window or tab
+            window.open(whatsappURL);
+        }
+    	</script>
+    
+	
+	
+	
+	<style>
 		button {
 			padding: 10px;
 			border: none;
@@ -65,7 +82,7 @@
         <p>GitHub profile:</p>
         <button onclick="window.location.href='https://github.com/guilherme141288'">Profile</button>
         <p>Whatsapp:</p>
-    	<p><a href="https://wa.me/5541998594394">+55 41 99859-4394</a></p>
+        <button onclick="redirectToWhatsApp('+5541998594394')">Abrir Whatsapp</button>
     </div>
 
         
